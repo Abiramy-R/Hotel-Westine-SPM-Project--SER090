@@ -93,13 +93,15 @@
 import React, { Component } from 'react'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
-import AddI from '../Vithursan/Images/add.jpg'
 import Viewi from '../Vithursan/Images/view.jpg'
-import Cardi from '../Vithursan/Images/card.jpg'
+import Cardi from '../Praveen/images/customer-view1.jpg'
 import { Link } from "react-router-dom";
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import orderI from '../Vithursan/Images/exp.jpg'
+import AddII from '../Praveen/images/add-event1.jpg'
+import ViewII from '../Praveen/images/view-event1.jpg'
+
 export default class AdminDash extends Component {
     render() {
         return (
@@ -112,7 +114,7 @@ export default class AdminDash extends Component {
            
             <Card style={{ width: '20rem' }} className="text-center">
             <Link to ="/add">
-            <Card.Img variant="top" src={AddI} />
+            <Card.Img variant="top" src={AddII} />
             </Link>
             <Card.Body>
               <Card.Title>Add Events</Card.Title>
@@ -127,7 +129,7 @@ export default class AdminDash extends Component {
           <Col>
           <Card style={{ width: '18rem' }} className="text-center">
           <Link to ="/view">
-          <Card.Img variant="top" src={Viewi} />
+          <Card.Img variant="top" src={ViewII} />
           </Link>
           <Card.Body>
             <Card.Title>View Event</Card.Title>

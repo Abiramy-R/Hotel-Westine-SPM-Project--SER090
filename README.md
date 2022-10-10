@@ -5,10 +5,10 @@
 **Member Details : **
 | Name | Student ID | Username |
 |--|--|--|
-| Member 01 | IT19155708 | Shanghavi |
-| Member 02 | IT19049878 | Jathusanan |
-| Member 03 | IT19033174 | Vithursan |
-| Member 04 | IT19007748 | Praveen |
+| Member 01 | IT20785642| Ishalini |
+| Member 02 | IIT20002206 | Tharmithan |
+| Member 03 | IT20785642 | Nirushan |
+| Member 04 | IT20167578 | Abiramy |
 
 ## Project Description
 This is a web-based hotel managing application.This application functionality 

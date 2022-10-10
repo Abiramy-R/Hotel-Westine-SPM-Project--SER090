@@ -94,7 +94,7 @@ import React, { Component } from 'react'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
 import Viewi from '../Vithursan/Images/view.jpg'
-import Cardi from '../Vithursan/Images/card.jpg'
+import Cardi from '../Praveen/images/customer-view1.jpg'
 import { Link } from "react-router-dom";
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'

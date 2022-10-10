@@ -100,6 +100,8 @@ import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import orderI from '../Vithursan/Images/exp.jpg'
 import AddII from '../Praveen/images/add-event1.jpg'
+import ViewII from '../Praveen/images/view-event1.jpg'
+
 export default class AdminDash extends Component {
     render() {
         return (
@@ -127,7 +129,7 @@ export default class AdminDash extends Component {
           <Col>
           <Card style={{ width: '18rem' }} className="text-center">
           <Link to ="/view">
-          <Card.Img variant="top" src={Viewi} />
+          <Card.Img variant="top" src={ViewII} />
           </Link>
           <Card.Body>
             <Card.Title>View Event</Card.Title>

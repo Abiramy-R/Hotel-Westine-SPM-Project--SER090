@@ -1,4 +1,4 @@
-# Group-ID - 2021S2_REG_WE_SER090
+# Group-ID - 2022S2_REG_WE_SER090
 ## Project name - Hotel Management System
 ## Group Details
 
@@ -18,4 +18,5 @@ which are server-side functions.
 
 ## Technologies
 Backend - Spring Boot ,
-Frontend - React JS ,Database - Mysql
+Frontend - React JS ,
+Database - Mysql

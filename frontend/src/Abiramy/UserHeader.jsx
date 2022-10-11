@@ -31,62 +31,103 @@ const Navbar = (props) => {
             <li className="navbar-item">
               <Link to="/" className="nav-link">
                <span style={
-                {fontSize:30}
-               }>WESTINE</span>  <br></br>
+                {fontSize:35}
+               }>WESTINE  <br></br>
                 Grand Resort
+                </span>
               </Link>
             </li>
-            <li className="navbar-item" style={{paddingTop:20}}>
+            <li className="navbar-item" style={{paddingTop:30}}>
               <Link to="/" className="nav-link">
+              <span style={
+                {fontSize:20}
+               }>
                 HOME
+                </span>
               </Link>
             </li>
 
             <br></br>
 
-            <li className="navbar-item" style={{paddingTop:20}}>
-              <Link to="/card"className="nav-link">Buy</Link>
+            <li className="navbar-item" style={{paddingTop:30}}>
+              <Link to="/card"className="nav-link">
+              <span style={
+                {fontSize:20}
+               }>
+                BUY
+                </span>
+                </Link>
             </li>
 
             <br></br>
 
-            <li className="navbar-item" style={{paddingTop:20}}>
-              <Link to="/venues" className="nav-link">EVENT</Link>
+            <li className="navbar-item" style={{paddingTop:30}}>
+              <Link to="/venues" className="nav-link">
+              <span style={
+                {fontSize:20}
+               }>
+                EVENT
+                </span>
+                </Link>
             </li>
 
             <br></br>
 
-            <li className="navbar-item" style={{paddingTop:20}}>
+            <li className="navbar-item" style={{paddingTop:30}}>
               <Link to="/AddRoom" className="nav-link">
+              <span style={
+                {fontSize:20}
+               }>
                 ROOM
+                </span>
               </Link>
             </li>
-            <li className="navbar-item" style={{paddingTop:20}}>
+            <li className="navbar-item" style={{paddingTop:30}}>
               <Link to="/status" className="nav-link">
+              <span style={
+                {fontSize:20}
+               }>
                 ROOM STATUS
+                </span>
               </Link>
             </li>
 
             <br></br>
 
-            <li className="navbar-item" style={{paddingTop:20}}>
+            <li className="navbar-item" style={{paddingTop:30}}>
               <Link to="/getemployees" className="nav-link">
+              <span style={
+                {fontSize:20}
+               }>
                 EMPLOYEE
+                </span>
               </Link>
             </li>
 
             <br></br>
 
-            <li className="navbar-item" style={{paddingTop:20}}>
-              <Link className="nav-link">EXPENSE</Link>
+            <li className="navbar-item" style={{paddingTop:30}}>
+              <Link className="nav-link">
+              <span style={
+                {fontSize:20}
+               }>
+                EXPENSE
+                </span>
+                </Link>
             </li>
 
             <br></br>
 
             <br></br>
 
-            <li className="navbar-item" style={{paddingTop:20}}>
-              <Link to="/viewVenues" className="nav-link">VIEW</Link>
+            <li className="navbar-item" style={{paddingTop:30}}>
+              <Link to="/viewVenues" className="nav-link">
+              <span style={
+                {fontSize:20}
+               }>
+                VIEW
+                </span>
+                </Link>
             </li>
 
             <br></br>

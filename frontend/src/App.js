@@ -7,6 +7,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import AddVenue from "./Praveen/AddVenue";
 import ViewVenues from "./Praveen/ViewVenues";
 import UpdateVenue from "./Praveen/UpdateVenue";
+import VenueSearch from "./Praveen/VenueSearch";
 
 //Jathusanan
 import AddRoom from "./Jathusanan/AddRoom";
@@ -45,6 +46,7 @@ import ViewOrder from "./Vithursan/ViewOrder";
 import StripeButton from "./Vithursan/stripebutton.component";
 import PrintThisComponent from "./Vithursan/Print";
 
+
 import SearchResult from "./Shanghavi/Search";
 
 function App() {
@@ -71,6 +73,7 @@ function App() {
             <Route path='/order/:id' exact={true} component={OrderForm}/>
             <Route path='/vieworder' exact={true} component={ViewOrder}/>
             <Route path = "/Stripebutton" exact component = {StripeButton}/>
+            
             
 
     
@@ -103,6 +106,7 @@ function App() {
             <Route path="/addVenue" component={AddVenue} />
             <Route path="/venues" component={ViewVenues} />
             <Route path="/updateVenue/:id" component={UpdateVenue} />
+            <Route path ="/searchVenue" component={VenueSearch}/>
           </Switch>
         </div>
       </Router>

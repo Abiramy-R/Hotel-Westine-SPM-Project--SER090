@@ -93,14 +93,14 @@
 import React, { Component } from 'react'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
-import Viewi from '../Vithursan/Images/view.jpg'
-import Cardi from '../Praveen/images/customer-view1.jpg'
+import Viewi from '../Nirushan/Images/view.jpg'
+import Cardi from '../Tharmithan/images/customer-view1.jpg'
 import { Link } from "react-router-dom";
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import orderI from '../Vithursan/Images/exp.jpg'
-import AddII from '../Praveen/images/add-event1.jpg'
-import ViewII from '../Praveen/images/view-event1.jpg'
+import orderI from '../Nirushan/Images/exp.jpg'
+import AddII from '../Tharmithan/images/add-event1.jpg'
+import ViewII from '../Tharmithan/images/view-event1.jpg'
 
 export default class AdminDash extends Component {
     render() {

@@ -6,11 +6,11 @@ import Col from 'react-bootstrap/Col'
 import { Link } from 'react-router-dom';
 
 
-import hotel from '../Vithursan/Images/room.jpg'
-import food from '../Vithursan/Images/food.jpg'
-import event from '../Vithursan/Images/event.jpg'
-import employee from '../Vithursan/Images/emp.jpg'
-import expense from '../Vithursan/Images/exp.jpg'
+import hotel from '../Nirushan/Images/room.jpg'
+import food from '../Nirushan/Images/food.jpg'
+import event from '../Nirushan/Images/event.jpg'
+import employee from '../Nirushan/Images/emp.jpg'
+import expense from '../Nirushan/Images/exp.jpg'
 
 
 const Home = (props) => { 

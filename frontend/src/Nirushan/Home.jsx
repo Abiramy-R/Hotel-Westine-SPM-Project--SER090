@@ -21,7 +21,17 @@ const Home = (props) => {
            
             <br></br>
             <br></br>
-            <h2 className="text-center" style={{ color:"#370411"}}>Admin Dashboard</h2>
+            {
+  sessionStorage.getItem('name')=="Admin" ?(
+    
+    <h2 className="text-center" style={{ color:"#370411"}}>Admin Dashboard</h2>
+
+    
+  ):(
+    <h2 className="text-center" style={{ color:"#370411"}}>User Dashboard</h2>
+  )
+}
+            
             <br/><br/><br/>
             <div style={{marginLeft:"60px"}}>
             <Row xs={1} md={3} className="g-4">

@@ -4,7 +4,9 @@ import { Image } from "react-bootstrap";
 
 import { Link } from "react-router-dom";
 
-import hotel from "../Jathusanan/images/hotel.png";
+
+import hotel from "../Abiramy/images/hotel.png";
+
 
 const Navbar = (props) => {
   return (
@@ -14,10 +16,17 @@ const Navbar = (props) => {
         <br></br>
         <br></br>
 
+
         <Image variant="top" src={hotel} width="200px" height="80px" />
 
         <Link className="navbar-brand" to="/">
           Agoura Hotel
+
+        {/* <Image variant="top" src={hotel} width="200px" height="80px" /> */}
+
+        <Link className="navbar-brand" to="/">
+          Westine Hotel
+
         </Link>
 
         <div className="collapse navbar-collapse">

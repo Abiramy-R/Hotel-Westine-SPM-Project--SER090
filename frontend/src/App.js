@@ -3,56 +3,69 @@ import "./App.css";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-//praveen
-import AddVenue from "./Praveen/AddVenue";
-import ViewVenues from "./Praveen/ViewVenues";
-import UpdateVenue from "./Praveen/UpdateVenue";
-
-//Jathusanan
-import AddRoom from "./Jathusanan/AddRoom";
-import ViewRoom from "./Jathusanan/ViewRoom";
-import UpdateRoom from "./Jathusanan/UpdateRoom";
-import AdminHeader from "./Jathusanan/AdminHeader";
-import ViewStatus from "./Jathusanan/ViewStatus";
+//Tharmithan
+import AddVenue from "./Tharmithan/AddVenue";
+import ViewVenues from "./Tharmithan/ViewVenues";
+import UpdateVenue from "./Tharmithan/UpdateVenue";
+import VenueDisplay from "./Tharmithan/VenueDisplay";
+import VenueBooking from "./Tharmithan/VenueBooking";
+import FinalizeReservation from "./Tharmithan/FinalizeReservation";
+import VenueCard from "./Tharmithan/VenueCard";
+import BookedVenue from "./Tharmithan/BookedVenue";
 
 
-//Shanghavi
-import EmployeeList from './Shanghavi/EmployeeList';
-import CreateEmployee from './Shanghavi/CreateEmployee';
-import UpdateEmployee from './Shanghavi/UpdateEmployee';
-import ViewEmployee from './Shanghavi/ViewEmployee';
-import ViewExpense from './Shanghavi/ViewExpense';
-import AddExpense from './Shanghavi/AddExpense';
-import UpdateExpense from "./Shanghavi/UpdateExpense";
-import Reviewexpense from "./Shanghavi/Expensereport";
 
-// import Login from "./Shanghavi/Login/login.component";
-// import Register from "./Shanghavi/Login/register.component";
-// import Profile from "./Shanghavi/Login/profile.component";
+//Abiramy
+import AddRoom from "./Abiramy/AddRoom";
+import ViewRoom from "./Abiramy/ViewRoom";
+import UpdateRoom from "./Abiramy/UpdateRoom";
+import AdminHeader from "./Abiramy/AdminHeader";
+import ViewStatus from "./Abiramy/ViewStatus";
+import UserHeader from "./Abiramy/UserHeader";
 
-//Vithursan
-import ViewFooditem from "./Vithursan/ViewFooditem";
-import FoodCard from './Vithursan/FoodCard';
-import AdminDash from './Vithursan/AdminDash';
-import UpdateFood from './Vithursan/UpdateFood';
-import Home from './Vithursan/Home';
-import AddFoodItem from './Vithursan/AddFoodItem';
-import VenueDisplay from "./Praveen/VenueDisplay";
-import VenueBooking from "./Praveen/VenueBooking";
-import FinalizeReservation from "./Praveen/FinalizeReservation";
-import OrderForm from "./Vithursan/OrderForm";
-import ViewOrder from "./Vithursan/ViewOrder";
-import StripeButton from "./Vithursan/stripebutton.component";
-import PrintThisComponent from "./Vithursan/Print";
+//Ishalini
+import EmployeeList from './Ishalini/EmployeeList';
+import CreateEmployee from './Ishalini/CreateEmployee';
+import UpdateEmployee from './Ishalini/UpdateEmployee';
+import ViewEmployee from './Ishalini/ViewEmployee';
+import ViewExpense from './Ishalini/ViewExpense';
+import AddExpense from './Ishalini/AddExpense';
+import UpdateExpense from "./Ishalini/UpdateExpense";
+import Reviewexpense from "./Ishalini/Expensereport";
+import SearchResult from "./Ishalini/Search";
+ 
+//Nirushan
+import ViewFooditem from "./Nirushan/ViewFooditem";
+import FoodCard from './Nirushan/FoodCard';
+import AdminDash from './Nirushan/AdminDash';
+import UpdateFood from './Nirushan/UpdateFood';
+import Home from './Nirushan/Home';
+import AddFoodItem from './Nirushan/AddFoodItem';
+import OrderForm from "./Nirushan/OrderForm";
+import ViewOrder from "./Nirushan/ViewOrder";
+import StripeButton from "./Nirushan/stripebutton.component";
+import PrintThisComponent from "./Nirushan/Print";
+import Login from "./Nirushan/Login";
 
-import SearchResult from "./Shanghavi/Search";
+
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <AdminHeader />
+
+{
+  sessionStorage.getItem('name')=="Admin" ?(
+    <AdminHeader /> 
+    
+
+    
+  ):(
+    <UserHeader /> 
+  )
+}
         
+     
         
         <div className="container">
           <Switch>
@@ -71,7 +84,10 @@ function App() {
             <Route path='/order/:id' exact={true} component={OrderForm}/>
             <Route path='/vieworder' exact={true} component={ViewOrder}/>
             <Route path = "/Stripebutton" exact component = {StripeButton}/>
-            
+            <Route path='/venuecard' exact={true} component={VenueCard}/>
+
+            <Route path='/login' exact={true} component={Login}/>
+
 
     
   
@@ -98,11 +114,14 @@ function App() {
             <Route path='/viewVenues' component={VenueDisplay}/>
             <Route path='/viewVenue/:id' component={VenueBooking}/>
             <Route path='/finalizeHall/:id' component={FinalizeReservation}/>
+            <Route path='/BookedVenue' component={BookedVenue}/>
            
 
             <Route path="/addVenue" component={AddVenue} />
             <Route path="/venues" component={ViewVenues} />
             <Route path="/updateVenue/:id" component={UpdateVenue} />
+            
+            {/* <Route path ="/searchVenue" component={VenueSearch}/> */}
           </Switch>
         </div>
       </Router>

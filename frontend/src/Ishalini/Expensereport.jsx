@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import ExpenseService from './services/ExpenseService';
-import Print from "../Shanghavi/Report"
+import Print from "../Ishalini/Report"
+
 
 class ViewExpense extends Component {
     constructor(props) {

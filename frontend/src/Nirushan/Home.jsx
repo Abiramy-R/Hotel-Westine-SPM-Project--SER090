@@ -4,13 +4,12 @@ import Button from 'react-bootstrap/Button'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import { Link } from 'react-router-dom';
+import hotel from '../Nirushan/Images/room.jpg'
+import food from '../Nirushan/Images/food.jpg'
+import event from '../Nirushan/Images/event.jpg'
+import employee from '../Nirushan/Images/emp.jpg'
+import expense from '../Nirushan/Images/exp.jpg'
 
-
-import hotel from '../Vithursan/Images/room.jpg'
-import food from '../Vithursan/Images/food.jpg'
-import event from '../Vithursan/Images/event.jpg'
-import employee from '../Vithursan/Images/emp.jpg'
-import expense from '../Vithursan/Images/exp.jpg'
 
 
 const Home = (props) => { 
@@ -21,7 +20,21 @@ const Home = (props) => {
            
             <br></br>
             <br></br>
+
             <h2 className="text-center" style={{ color:"#370411"}}>Admin Dashboard</h2>
+
+            {
+  sessionStorage.getItem('name')=="Admin" ?(
+    
+    <h2 className="text-center" style={{ color:"#370411"}}>Admin Dashboard</h2>
+
+    
+  ):(
+    <h2 className="text-center" style={{ color:"#370411"}}>User Dashboard</h2>
+  )
+}
+            
+
             <br/><br/><br/>
             <div style={{marginLeft:"60px"}}>
             <Row xs={1} md={3} className="g-4">

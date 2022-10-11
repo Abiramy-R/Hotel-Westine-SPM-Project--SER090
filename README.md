@@ -18,4 +18,5 @@ which are server-side functions.
 
 ## Technologies
 Backend - Spring Boot ,
-Frontend - React JS ,Database - Mysql
+Frontend - React JS ,
+Database - Mysql

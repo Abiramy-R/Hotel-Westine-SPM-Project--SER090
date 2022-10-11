@@ -121,7 +121,7 @@ function App() {
             <Route path="/addVenue" component={AddVenue} />
             <Route path="/venues" component={ViewVenues} />
             <Route path="/updateVenue/:id" component={UpdateVenue} />
-            <Route path ="/searchVenue" component={VenueSearch}/>
+            {/* <Route path ="/searchVenue" component={VenueSearch}/> */}
           </Switch>
         </div>
       </Router>

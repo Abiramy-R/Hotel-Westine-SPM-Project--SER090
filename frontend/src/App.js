@@ -3,20 +3,20 @@ import "./App.css";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-//Tharmithan
+//praveen
 import AddVenue from "./Tharmithan/AddVenue";
-import ViewVenues from "./Tharmithan//ViewVenues";
-import UpdateVenue from "./Tharmithan//UpdateVenue";
+import ViewVenues from "./Tharmithan/ViewVenues";
+import UpdateVenue from "./Tharmithan/UpdateVenue";
 
-//Abiramy
+//Jathusanan
 import AddRoom from "./Abiramy/AddRoom";
 import ViewRoom from "./Abiramy/ViewRoom";
 import UpdateRoom from "./Abiramy/UpdateRoom";
 import AdminHeader from "./Abiramy/AdminHeader";
 import ViewStatus from "./Abiramy/ViewStatus";
+import UserHeader from "./Abiramy/UserHeader";
 
-
-//Ishalini
+//Shanghavi
 import EmployeeList from './Ishalini/EmployeeList';
 import CreateEmployee from './Ishalini/CreateEmployee';
 import UpdateEmployee from './Ishalini/UpdateEmployee';
@@ -26,11 +26,11 @@ import AddExpense from './Ishalini/AddExpense';
 import UpdateExpense from "./Ishalini/UpdateExpense";
 import Reviewexpense from "./Ishalini/Expensereport";
 
-// import Login from "./Ishalini/Login/login.component";
-// import Register from "./Ishalini/Login/register.component";
-// import Profile from "./Ishalini/Login/profile.component";
+// import Login from "./Shanghavi/Login/login.component";
+// import Register from "./Shanghavi/Login/register.component";
+// import Profile from "./Shanghavi/Login/profile.component";
 
-//Nirushan
+//Vithursan
 import ViewFooditem from "./Nirushan/ViewFooditem";
 import FoodCard from './Nirushan/FoodCard';
 import AdminDash from './Nirushan/AdminDash';
@@ -44,15 +44,26 @@ import OrderForm from "./Nirushan/OrderForm";
 import ViewOrder from "./Nirushan/ViewOrder";
 import StripeButton from "./Nirushan/stripebutton.component";
 import PrintThisComponent from "./Nirushan/Print";
-
+import Login from "./Nirushan/Login";
 import SearchResult from "./Ishalini/Search";
 
 function App() {
   return (
     <div className="App">
       <Router>
-        <AdminHeader />
+
+{
+  sessionStorage.getItem('name')=="Admin" ?(
+    <AdminHeader /> 
+    
+
+    
+  ):(
+    <UserHeader /> 
+  )
+}
         
+     
         
         <div className="container">
           <Switch>
@@ -71,7 +82,7 @@ function App() {
             <Route path='/order/:id' exact={true} component={OrderForm}/>
             <Route path='/vieworder' exact={true} component={ViewOrder}/>
             <Route path = "/Stripebutton" exact component = {StripeButton}/>
-            
+            <Route path='/login' exact={true} component={Login}/>
 
     
   

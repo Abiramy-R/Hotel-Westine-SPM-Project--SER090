@@ -26,9 +26,7 @@ import AddExpense from './Shanghavi/AddExpense';
 import UpdateExpense from "./Shanghavi/UpdateExpense";
 import Reviewexpense from "./Shanghavi/Expensereport";
 
-// import Login from "./Shanghavi/Login/login.component";
-// import Register from "./Shanghavi/Login/register.component";
-// import Profile from "./Shanghavi/Login/profile.component";
+ 
 
 //Vithursan
 import ViewFooditem from "./Vithursan/ViewFooditem";

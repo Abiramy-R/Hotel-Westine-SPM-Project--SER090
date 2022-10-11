@@ -35,9 +35,7 @@ import UpdateExpense from "./Ishalini/UpdateExpense";
 import Reviewexpense from "./Ishalini/Expensereport";
 import SearchResult from "./Ishalini/Search";
 
-// import Login from "./Shanghavi/Login/login.component";
-// import Register from "./Shanghavi/Login/register.component";
-// import Profile from "./Shanghavi/Login/profile.component";
+ 
 
 //Vithursan
 

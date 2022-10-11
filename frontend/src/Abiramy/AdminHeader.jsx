@@ -8,6 +8,7 @@ import { Link } from "react-router-dom";
 import hotel from "../Abiramy/images/hotel.png";
 
 
+
 const Navbar = (props) => {
   return (
     <div>
@@ -17,15 +18,18 @@ const Navbar = (props) => {
         <br></br>
 
 
+
         <Image variant="top" src={hotel} width="200px" height="80px" />
 
         <Link className="navbar-brand" to="/">
           Agoura Hotel
+        </Link>
 
         {/* <Image variant="top" src={hotel} width="200px" height="80px" /> */}
 
         <Link className="navbar-brand" to="/">
           Westine Hotel
+
 
         </Link>
 

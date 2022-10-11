@@ -12,6 +12,7 @@ import expense from '../Nirushan/Images/exp.jpg'
 
 
 
+
 const Home = (props) => { 
   
     return(
@@ -20,8 +21,6 @@ const Home = (props) => {
            
             <br></br>
             <br></br>
-
-            <h2 className="text-center" style={{ color:"#370411"}}>Admin Dashboard</h2>
 
             {
   sessionStorage.getItem('name')=="Admin" ?(

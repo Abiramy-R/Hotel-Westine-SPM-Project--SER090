@@ -33,9 +33,7 @@ import AddExpense from './Ishalini/AddExpense';
 import UpdateExpense from "./Ishalini/UpdateExpense";
 import Reviewexpense from "./Ishalini/Expensereport";
 import SearchResult from "./Ishalini/Search";
-
  
-
 //Nirushan
 import ViewFooditem from "./Nirushan/ViewFooditem";
 import FoodCard from './Nirushan/FoodCard';

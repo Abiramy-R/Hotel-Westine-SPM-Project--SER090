@@ -116,7 +116,6 @@ export default class ViewFooditem extends Component {
         return (
             <div>
             <br></br>
-            {/* adding venue details  */}
             <h2 className="text-center" style={{color:"#0e7794"}}> Venue List</h2>
             <Link to="/addVenue"><Button variant="#053b4b" type="submit" style={{marginLeft:"160px" , width:"200px", height:"40px",backgroundColor:"#053b4b", color:"white"}}> 
                 Add Venues

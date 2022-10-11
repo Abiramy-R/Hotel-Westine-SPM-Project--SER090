@@ -8,6 +8,10 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import AddVenue from "./Tharmithan/AddVenue";
 import ViewVenues from "./Tharmithan/ViewVenues";
 import UpdateVenue from "./Tharmithan/UpdateVenue";
+import VenueDisplay from "./Tharmithan/VenueDisplay";
+import VenueBooking from "./Tharmithan/VenueBooking";
+import FinalizeReservation from "./Tharmithan/FinalizeReservation";
+
 
 
 //Jathusanan
@@ -27,6 +31,7 @@ import ViewExpense from './Ishalini/ViewExpense';
 import AddExpense from './Ishalini/AddExpense';
 import UpdateExpense from "./Ishalini/UpdateExpense";
 import Reviewexpense from "./Ishalini/Expensereport";
+import SearchResult from "./Ishalini/Search";
 
 // import Login from "./Shanghavi/Login/login.component";
 // import Register from "./Shanghavi/Login/register.component";
@@ -41,15 +46,12 @@ import AdminDash from './Nirushan/AdminDash';
 import UpdateFood from './Nirushan/UpdateFood';
 import Home from './Nirushan/Home';
 import AddFoodItem from './Nirushan/AddFoodItem';
-import VenueDisplay from "./Tharmithan/VenueDisplay";
-import VenueBooking from "./Tharmithan/VenueBooking";
-import FinalizeReservation from "./Tharmithan/FinalizeReservation";
 import OrderForm from "./Nirushan/OrderForm";
 import ViewOrder from "./Nirushan/ViewOrder";
 import StripeButton from "./Nirushan/stripebutton.component";
 import PrintThisComponent from "./Nirushan/Print";
 import Login from "./Nirushan/Login";
-import SearchResult from "./Ishalini/Search";
+
 
 
 function App() {

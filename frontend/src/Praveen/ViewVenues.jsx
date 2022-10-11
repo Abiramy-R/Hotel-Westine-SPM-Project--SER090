@@ -136,7 +136,7 @@ export default class AdminDash extends Component {
             <Card.Text>
              
             </Card.Text>
-            <Link to="/view"><Button size="lg" block variant="#053b4b"  style={{backgroundColor:"#053b4b", color:"white"}}>click</Button></Link>
+            <Link to="/viewVenues"><Button size="lg" block variant="#053b4b"  style={{backgroundColor:"#053b4b", color:"white"}}>click</Button></Link>
           </Card.Body>
         </Card>
         </Col>

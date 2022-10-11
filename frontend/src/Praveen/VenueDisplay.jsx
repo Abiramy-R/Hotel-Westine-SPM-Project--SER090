@@ -120,8 +120,6 @@ export default class ViewFooditem extends Component {
             <Link to="/addVenue"><Button variant="#053b4b" type="submit" style={{marginLeft:"160px" , width:"200px", height:"40px",backgroundColor:"#053b4b", color:"white"}}> 
                 Add Venues
             </Button> </Link>
-
-            {/* card view for customers */}
             
             <Link to="/card"><Button variant="#053b4b" type="submit" style={{ marginLeft:"460px",  width:"200px", height:"40px",backgroundColor:"#053b4b", color:"white"}}> 
             Customer View

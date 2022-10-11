@@ -12,6 +12,7 @@ import VenueDisplay from "./Tharmithan/VenueDisplay";
 import VenueBooking from "./Tharmithan/VenueBooking";
 import FinalizeReservation from "./Tharmithan/FinalizeReservation";
 import VenueCard from "./Tharmithan/VenueCard";
+import BookedVenue from "./Tharmithan/BookedVenue";
 
 
 
@@ -120,11 +121,13 @@ function App() {
             <Route path='/viewVenues' component={VenueDisplay}/>
             <Route path='/viewVenue/:id' component={VenueBooking}/>
             <Route path='/finalizeHall/:id' component={FinalizeReservation}/>
+            <Route path='/BookedVenue' component={BookedVenue}/>
            
 
             <Route path="/addVenue" component={AddVenue} />
             <Route path="/venues" component={ViewVenues} />
             <Route path="/updateVenue/:id" component={UpdateVenue} />
+            
             {/* <Route path ="/searchVenue" component={VenueSearch}/> */}
           </Switch>
         </div>

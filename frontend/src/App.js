@@ -3,8 +3,7 @@ import "./App.css";
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
-//praveen
-
+//Tharmithan
 import AddVenue from "./Tharmithan/AddVenue";
 import ViewVenues from "./Tharmithan/ViewVenues";
 import UpdateVenue from "./Tharmithan/UpdateVenue";
@@ -16,7 +15,7 @@ import BookedVenue from "./Tharmithan/BookedVenue";
 
 
 
-//Jathusanan
+//Abiramy
 import AddRoom from "./Abiramy/AddRoom";
 import ViewRoom from "./Abiramy/ViewRoom";
 import UpdateRoom from "./Abiramy/UpdateRoom";
@@ -24,7 +23,7 @@ import AdminHeader from "./Abiramy/AdminHeader";
 import ViewStatus from "./Abiramy/ViewStatus";
 import UserHeader from "./Abiramy/UserHeader";
 
-//Shanghavi
+//Ishalini
 import EmployeeList from './Ishalini/EmployeeList';
 import CreateEmployee from './Ishalini/CreateEmployee';
 import UpdateEmployee from './Ishalini/UpdateEmployee';
@@ -34,12 +33,8 @@ import AddExpense from './Ishalini/AddExpense';
 import UpdateExpense from "./Ishalini/UpdateExpense";
 import Reviewexpense from "./Ishalini/Expensereport";
 import SearchResult from "./Ishalini/Search";
-
  
-
-//Vithursan
-
-
+//Nirushan
 import ViewFooditem from "./Nirushan/ViewFooditem";
 import FoodCard from './Nirushan/FoodCard';
 import AdminDash from './Nirushan/AdminDash';

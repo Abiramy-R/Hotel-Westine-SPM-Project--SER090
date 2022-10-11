@@ -4,9 +4,11 @@ import "./App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 //praveen
+
 import AddVenue from "./Tharmithan/AddVenue";
 import ViewVenues from "./Tharmithan/ViewVenues";
 import UpdateVenue from "./Tharmithan/UpdateVenue";
+
 
 //Jathusanan
 import AddRoom from "./Abiramy/AddRoom";
@@ -31,6 +33,8 @@ import Reviewexpense from "./Ishalini/Expensereport";
 // import Profile from "./Shanghavi/Login/profile.component";
 
 //Vithursan
+
+
 import ViewFooditem from "./Nirushan/ViewFooditem";
 import FoodCard from './Nirushan/FoodCard';
 import AdminDash from './Nirushan/AdminDash';
@@ -46,6 +50,7 @@ import StripeButton from "./Nirushan/stripebutton.component";
 import PrintThisComponent from "./Nirushan/Print";
 import Login from "./Nirushan/Login";
 import SearchResult from "./Ishalini/Search";
+
 
 function App() {
   return (
@@ -82,7 +87,9 @@ function App() {
             <Route path='/order/:id' exact={true} component={OrderForm}/>
             <Route path='/vieworder' exact={true} component={ViewOrder}/>
             <Route path = "/Stripebutton" exact component = {StripeButton}/>
+
             <Route path='/login' exact={true} component={Login}/>
+
 
     
   
@@ -114,6 +121,7 @@ function App() {
             <Route path="/addVenue" component={AddVenue} />
             <Route path="/venues" component={ViewVenues} />
             <Route path="/updateVenue/:id" component={UpdateVenue} />
+            <Route path ="/searchVenue" component={VenueSearch}/>
           </Switch>
         </div>
       </Router>

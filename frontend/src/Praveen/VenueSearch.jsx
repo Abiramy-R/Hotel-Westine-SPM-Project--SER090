@@ -134,7 +134,7 @@ class VenueSearch extends Component {
     return (
       <div>
       <br/> <br/>
-                  <h1 className="text-center" style={{color:"#0e7794"}}>Search Venue</h1>
+                  <h1 className="text-center" style={{color:"#0e7794"}}>Search Venue details</h1>
                   <br/><br/>
         <Form inline>
           <FormControl

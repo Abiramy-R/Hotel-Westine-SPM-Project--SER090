@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import Card from 'react-bootstrap/Card'
 import Button from 'react-bootstrap/Button'
-import AddI from '../Vithursan/Images/add.jpg'
-import Viewi from '../Vithursan/Images/view.jpg'
-import Cardi from '../Vithursan/Images/card.jpg'
+import AddI from '../Nirushan/Images/add.jpg'
+import Viewi from '../Nirushan/Images/view.jpg'
+import Cardi from '../Nirushan/Images/card.jpg'
 import { Link } from "react-router-dom";
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
-import orderI from '../Vithursan/Images/exp.jpg'
+import orderI from '../Nirushan/Images/exp.jpg'
 export default class AdminDash extends Component {
     render() {
         return (

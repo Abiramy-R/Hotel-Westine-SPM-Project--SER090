@@ -11,6 +11,7 @@ import UpdateVenue from "./Tharmithan/UpdateVenue";
 import VenueDisplay from "./Tharmithan/VenueDisplay";
 import VenueBooking from "./Tharmithan/VenueBooking";
 import FinalizeReservation from "./Tharmithan/FinalizeReservation";
+import VenueCard from "./Tharmithan/VenueCard";
 
 
 
@@ -89,6 +90,7 @@ function App() {
             <Route path='/order/:id' exact={true} component={OrderForm}/>
             <Route path='/vieworder' exact={true} component={ViewOrder}/>
             <Route path = "/Stripebutton" exact component = {StripeButton}/>
+            <Route path='/venuecard' exact={true} component={VenueCard}/>
 
             <Route path='/login' exact={true} component={Login}/>
 

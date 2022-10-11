@@ -51,11 +51,11 @@ export default class BookedVenue extends Component {
             <div>
             <br></br>
             <h2 className="text-center" style={{color:"#0e7794"}}>View Order details</h2>
-            <Link to="/add"><Button variant="#053b4b" type="submit" style={{marginLeft:"160px" , width:"200px", height:"40px",backgroundColor:"#053b4b", color:"white"}}> 
+            <Link to="/addVenue"><Button variant="#053b4b" type="submit" style={{marginLeft:"160px" , width:"200px", height:"40px",backgroundColor:"#053b4b", color:"white"}}> 
                 Add Venue Detail
             </Button> </Link>
             
-            <Link to="/card"><Button variant="#053b4b" type="submit" style={{ marginLeft:"460px",  width:"200px", height:"40px",backgroundColor:"#053b4b", color:"white"}}> 
+            <Link to="/venuecard"><Button variant="#053b4b" type="submit" style={{ marginLeft:"460px",  width:"200px", height:"40px",backgroundColor:"#053b4b", color:"white"}}> 
             Customer View
         </Button> </Link>
             <br></br>

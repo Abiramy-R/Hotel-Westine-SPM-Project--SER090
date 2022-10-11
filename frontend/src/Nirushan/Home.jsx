@@ -4,13 +4,13 @@ import Button from 'react-bootstrap/Button'
 import Row from 'react-bootstrap/Row'
 import Col from 'react-bootstrap/Col'
 import { Link } from 'react-router-dom';
-
-
 import hotel from '../Nirushan/Images/room.jpg'
 import food from '../Nirushan/Images/food.jpg'
 import event from '../Nirushan/Images/event.jpg'
 import employee from '../Nirushan/Images/emp.jpg'
 import expense from '../Nirushan/Images/exp.jpg'
+
+
 
 
 const Home = (props) => { 
@@ -21,6 +21,7 @@ const Home = (props) => {
            
             <br></br>
             <br></br>
+
             {
   sessionStorage.getItem('name')=="Admin" ?(
     
@@ -32,6 +33,7 @@ const Home = (props) => {
   )
 }
             
+
             <br/><br/><br/>
             <div style={{marginLeft:"60px"}}>
             <Row xs={1} md={3} className="g-4">

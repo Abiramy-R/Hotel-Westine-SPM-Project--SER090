@@ -5,9 +5,9 @@
 **Member Details : **
 | Name | Student ID | Username |
 |--|--|--|
-| Member 01 | IT20785642| Ishalini |
+| Member 01 | IT20785642 | Ishalini |
 | Member 02 | IIT20002206 | Tharmithan |
-| Member 03 | IT20785642 | Nirushan |
+| Member 03 | IT20785642 | Nirushan|
 | Member 04 | IT20167578 | Abiramy |
 
 ## Project Description

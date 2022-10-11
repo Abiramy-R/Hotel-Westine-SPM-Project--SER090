@@ -114,7 +114,9 @@ export default class AddVenue extends Component {
         return (
             <div>
                 <br/>
+
                 <h1 style={{color:"#0e7794", marginTop:'2rem', fontWeight:'bold', textAlign : 'center'}}>Add Venue</h1>
+
                 <br/>
                 <div className="card col-md-6 offset-md-3 offset-md-3" style={{padding : '1rem', borderRadius:15}}>
                 <Form onSubmit={this.onSubmit}>

@@ -158,7 +158,7 @@ export default class AdminDash extends Component {
 
         <Col>
         <Card style={{ width: '18rem' }} className="text-center">
-        <Link to ="/vieworder">
+        <Link to ="/BookedVenue">
           <Card.Img variant="top" src={orderI} />
 </Link>
           <Card.Body>
@@ -166,7 +166,7 @@ export default class AdminDash extends Component {
             <Card.Text>
              
             </Card.Text>
-            <Link to="/vieworder"><Button variant="#053b4b" size="lg" block   style={{backgroundColor:"#053b4b", color:"white"}}>click</Button></Link>
+            <Link to="/BookedVenue"><Button variant="#053b4b" size="lg" block   style={{backgroundColor:"#053b4b", color:"white"}}>click</Button></Link>
           </Card.Body>
         </Card>
        

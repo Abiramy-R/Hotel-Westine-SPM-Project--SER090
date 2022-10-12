@@ -70,7 +70,7 @@ const Navbar = (props) => {
             <br></br>
 
             <li className="navbar-item">
-              <Link className="nav-link">EXPENSE</Link>
+              <Link to="/viewexpense" className="nav-link">EXPENSE</Link>
             </li>
 
             <br></br>

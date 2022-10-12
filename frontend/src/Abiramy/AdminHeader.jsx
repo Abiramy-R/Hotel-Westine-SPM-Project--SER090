@@ -4,7 +4,7 @@ import React from "react";
 
 import { Link } from "react-router-dom";
 
-import hotel from "../Abiramy/images/hotel.png";
+//import hotel from "../Abiramy/images/hotel.png";
 
 const Navbar = (props) => {
   return (

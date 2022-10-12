@@ -1,10 +1,10 @@
 import React from "react";
 
-//import { Image } from "react-bootstrap";
+import { Image } from "react-bootstrap";
 
 import { Link } from "react-router-dom";
 
-//import hotel from "../Abiramy/images/hotel.png";
+import hotel from "../Abiramy/images/hotel.png";
 
 const Navbar = (props) => {
   return (

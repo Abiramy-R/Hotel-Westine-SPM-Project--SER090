@@ -12,17 +12,7 @@ class RoomList extends React.Component {
       Rooms: [],
     };
   }
-  componentDidMount() {
-    axios
-      .get("http://localhost:8090/api/Rooms/get")
-      .then((response) => {
-        this.setState({ Rooms: response.data });
-        console.log(this.state.Rooms);
-      })
-      .catch((error) => {
-        console.log(error);
-      });
-  }
+  
   deleteRoomDetails(id) {
     axios
       .delete("http://localhost:8090/api/Rooms/delete/" + id)

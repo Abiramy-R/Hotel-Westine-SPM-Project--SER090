@@ -77,10 +77,16 @@ const Navbar = (props) => {
 
             <br></br>
 
-            <li className="navbar-item" style={{ paddingTop: 30 }}>
+
+            <li className="navbar-item">
+              <Link to="/viewexpense" className="nav-link">EXPENSE</Link>
+ 
+            <li className="navbar-item" style={{paddingTop:30}}>
+
               <Link className="nav-link">
                 <span style={{ fontSize: 25 }}>EXPENSE</span>
               </Link>
+ 
             </li>
 
             <br></br>

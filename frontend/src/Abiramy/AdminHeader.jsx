@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 
 import { Image } from "react-bootstrap";
 
@@ -76,16 +76,9 @@ const Navbar = (props) => {
             </li>
 
             <br></br>
-
-<<<<<<< HEAD
-            <li className="navbar-item" style={{ paddingTop: 30 }}>
-=======
- 
-            <li className="navbar-item">
-              <Link to="/viewexpense" className="nav-link">EXPENSE</Link>
- 
+          
             <li className="navbar-item" style={{paddingTop:30}}>
->>>>>>> 2185047e0219fb334d459654fce69079c0c194d8
+
               <Link className="nav-link">
                 <span style={{ fontSize: 25 }}>EXPENSE</span>
               </Link>

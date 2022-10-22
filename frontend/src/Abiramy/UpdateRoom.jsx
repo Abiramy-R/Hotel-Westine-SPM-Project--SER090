@@ -3,7 +3,7 @@ import axios from "axios";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
-import { Col } from "react-bootstrap";
+//import { Col } from "react-bootstrap";
 import uroom from "./images/updateRoom.jpg";
 import uroom2 from "./images/ur2.jpg";
 

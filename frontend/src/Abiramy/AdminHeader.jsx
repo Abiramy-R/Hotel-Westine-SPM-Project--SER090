@@ -1,4 +1,4 @@
-import React from "react";
+ import React from "react";
 
 import { Image } from "react-bootstrap";
 
@@ -10,15 +10,11 @@ const Navbar = (props) => {
   return (
     <div>
       <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
-     
-    
         {/* <Image variant="top" src={hotel} width="200px" height="80px" /> */}
 
         {/* <Link className="navbar-brand" to="/">
           WESTINE Grand Resort
         </Link> */}
-
-
 
         <div className="collapse navbar-collapse">
           <br></br>
@@ -30,84 +26,56 @@ const Navbar = (props) => {
 
             <li className="navbar-item">
               <Link to="/" className="nav-link">
-               <span style={
-                {fontSize:35}
-               }>WESTINE  <br></br>
-                Grand Resort
+                <span style={{ fontSize: 35 }}>
+                  WESTINE <br></br>
+                  Grand Resort
                 </span>
               </Link>
             </li>
-            <li className="navbar-item" style={{paddingTop:30}}>
+            <li className="navbar-item" style={{ paddingTop: 30 }}>
               <Link to="/" className="nav-link">
-              <span style={
-                {fontSize:25}
-               }>
-                HOME
-                </span>
+                <span style={{ fontSize: 25 }}>HOME</span>
               </Link>
             </li>
 
             <br></br>
 
-            <li className="navbar-item" style={{paddingTop:30}}>
-              <Link to="/Fdash"className="nav-link">
-              <span style={
-                {fontSize:25}
-               }>
-                DINING
-                </span>
-                </Link>
+            <li className="navbar-item" style={{ paddingTop: 30 }}>
+              <Link to="/Fdash" className="nav-link">
+                <span style={{ fontSize: 25 }}>DINING</span>
+              </Link>
             </li>
 
             <br></br>
 
-            <li className="navbar-item" style={{paddingTop:30}}>
+            <li className="navbar-item" style={{ paddingTop: 30 }}>
               <Link to="/venues" className="nav-link">
-              <span style={
-                {fontSize:25}
-               }>
-                EVENT
-                </span>
-                </Link>
+                <span style={{ fontSize: 25 }}>EVENT</span>
+              </Link>
             </li>
 
             <br></br>
 
-            <li className="navbar-item" style={{paddingTop:30}}>
+            <li className="navbar-item" style={{ paddingTop: 30 }}>
               <Link to="/AddRoom" className="nav-link">
-              <span style={
-                {fontSize:25}
-               }>
-                ROOM
-                </span>
+                <span style={{ fontSize: 25 }}>ROOM</span>
               </Link>
             </li>
-            <li className="navbar-item" style={{paddingTop:30}}>
+            <li className="navbar-item" style={{ paddingTop: 30 }}>
               <Link to="/status" className="nav-link">
-              <span style={
-                {fontSize:25}
-               }>
-                ROOM STATUS
-                </span>
+                <span style={{ fontSize: 25 }}>ROOM STATUS</span>
               </Link>
             </li>
 
             <br></br>
 
-            <li className="navbar-item" style={{paddingTop:30}}>
+            <li className="navbar-item" style={{ paddingTop: 30 }}>
               <Link to="/getemployees" className="nav-link">
-              <span style={
-                {fontSize:25}
-               }>
-                EMPLOYEE
-                </span>
+                <span style={{ fontSize: 25 }}>EMPLOYEE</span>
               </Link>
             </li>
 
             <br></br>
-
- 
-        
  
             <li className="navbar-item" style={{paddingTop:30}}>
               <Link  className="nav-link">
@@ -115,6 +83,13 @@ const Navbar = (props) => {
                 {fontSize:25}
                }>EXPENSE
                </span>
+ 
+          
+            <li className="navbar-item" style={{paddingTop:30}}>
+
+              <Link className="nav-link">
+                <span style={{ fontSize: 25 }}>EXPENSE</span>
+ 
               </Link>
  
             </li>
@@ -123,17 +98,13 @@ const Navbar = (props) => {
 
             <br></br>
 
-            <li className="navbar-item" style={{paddingTop:30}}>
+            <li className="navbar-item" style={{ paddingTop: 30 }}>
               <Link to="/viewVenues" className="nav-link">
-              <span style={
-                {fontSize:25}
-               }>VIEW
-               </span>
-               </Link>
+                <span style={{ fontSize: 25 }}>VIEW</span>
+              </Link>
             </li>
 
             <br></br>
-
           </ul>
         </div>
       </nav>

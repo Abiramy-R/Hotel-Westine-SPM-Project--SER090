@@ -76,11 +76,20 @@ const Navbar = (props) => {
             </li>
 
             <br></br>
+ 
+            <li className="navbar-item" style={{paddingTop:30}}>
+              <Link  className="nav-link">
+              <span style={
+                {fontSize:25}
+               }>EXPENSE
+               </span>
+ 
           
             <li className="navbar-item" style={{paddingTop:30}}>
 
               <Link className="nav-link">
                 <span style={{ fontSize: 25 }}>EXPENSE</span>
+ 
               </Link>
  
             </li>

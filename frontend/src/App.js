@@ -28,11 +28,7 @@ import EmployeeList from './Ishalini/EmployeeList';
 import CreateEmployee from './Ishalini/CreateEmployee';
 import UpdateEmployee from './Ishalini/UpdateEmployee';
 import ViewEmployee from './Ishalini/ViewEmployee';
-import ViewExpense from './Ishalini/ViewExpense';
-import AddExpense from './Ishalini/AddExpense';
-import UpdateExpense from "./Ishalini/UpdateExpense";
-import Reviewexpense from "./Ishalini/Expensereport";
-import SearchResult from "./Ishalini/Search";
+import ExpenseHome from "./Ishalini/Expense/ExpenseHome";
  
 //Nirushan
 import ViewFooditem from "./Nirushan/ViewFooditem";
@@ -89,18 +85,17 @@ function App() {
             <Route path='/login' exact={true} component={Login}/>
 
 
+
     
   
             <Route path = "/getemployees" component = {EmployeeList}/>
             <Route path = "/addemployee/:id" component = {CreateEmployee}/>
             <Route path = "/updateemployee/:id" component = {UpdateEmployee}/>
             <Route path = "/viewemployee/:id" component = {ViewEmployee}/>
-            <Route path='/viewexpense'  component={ViewExpense}/>
-            <Route path='/addexpense/:id'  component={AddExpense}/>
-            <Route path = "/updateexpense/:id" component = {UpdateExpense}/>
-            <Route path='/reviewexpense'  component={Reviewexpense}/>
-            <Route path = '/search' component = {SearchResult}/>
-            {/* <Route exact path="/login" component={Login} />
+
+            <Route path = "/viewexpense" component = {ExpenseHome}/>
+            {/* 
+             <Route exact path="/login" component={Login} />
             <Route exact path="/register" component={Register} />
             <Route exact path="/profile" component={Profile} />
           */}

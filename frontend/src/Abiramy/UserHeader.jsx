@@ -107,7 +107,7 @@ const Navbar = (props) => {
             <br></br>
 
             <li className="navbar-item" style={{paddingTop:30}}>
-              <Link className="nav-link">
+              <Link to="/viewexpense" className="nav-link">
               <span style={
                 {fontSize:25}
                }>
